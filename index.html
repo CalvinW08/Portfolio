@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <button id="smartSearchBtn" class="btn ghost">Project Search</button> 
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Portfolio of Calvin Wisener — Projects, skills, and contact." />
+  <title>Calvin Wisener — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div id="minimap"></div> 
+    <div class="page-fade-top"></div>
+<div class="page-fade-bottom"></div>
+ <input id="projectSearch" class="project-search" placeholder="Search projects...">
+ 
+  <canvas id="bgCanvas" aria-hidden="true"></canvas>
+  <div class="progress-bar" aria-hidden="true"><span></span></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Calvin Wisener</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-menu">
+          <span class="bar" aria-hidden="true"></span>
+          <span class="bar" aria-hidden="true"></span>
+          <span class="bar" aria-hidden="true"></span>
+        </button>
+        <ul id="primary-menu" class="nav-list">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href=></li>
+          <li>
+            <button> 
+            <label class="theme-switch">
+  <input type="checkbox" id="themeSwitch" aria-label="Toggle theme">
+  <span class="switch-slider"></span>
+</label>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    
+    <section id="home" class="hero">
+      
+      <div class="hero-content container reveal">
+        <h1>Hi, I’m <span class="accent">Calvin</span> 👋</h1>
+        <p class="subtitle">
+          Student.... 
+        </p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href= "#contact" > Contact             </a>
+          <button class="btn ghost k-shortcut" aria-label="Open command palette ()" title="Open command palette (Ctrl/⌘+K)">Avaliable To Work.</button>
+        </div>
+        <ul class="socials" aria-label="Social links">
+          <li><a class="icon-link" href="link" target="_blank" rel="noreferrer"><!--Contact--></a></li>
+          <li><a class="icon-link" href="link" target="_blank" rel="noreferrer"><!--Contact--></a></li>
+          <li><a class="icon-link" href="mailto:you@example.com">Email</a></li>
+        </ul>
+      </div>
+    </section>
+
+<section id="projects" class="section container">
+  <div class="section-head reveal">
+    <h2>Projects</h2>
+    <p>Projects: </p>
+  </div>
+
+  <div class="projects-grid grid">
+
+    <!---Project 1-->
+    <div 
+      class="project tilt reveal"
+      tabindex="0"
+      data-project='{
+        "title": "",
+        "description": "",
+        "tags": [],
+        "link": "#"
+      }'
+    >
+      <div class="card-media pattern pattern-1"></div>
+      <div class="card-body">
+        <h3></h3>
+        <p></p>
+        <div class="tags"></div>
+      </div>
+    </div>
+<!---Project 2-->
+    <div
+    
+    
+      class="project tilt reveal"
+      tabindex="0"
+      data-project='{
+        "title": "",
+        "description": "",
+        "tags": [],
+        "link": "#"
+      }'
+    >
+      <div class="card-media pattern pattern-2"></div>
+      <div class="card-body">
+        <h3></h3>
+        <p></p>
+        <div class="tags"></div>
+      </div>
+    </div>
+
+   <!---Project 3-->
+    <div 
+      class="project tilt reveal"
+      tabindex="0"
+      data-project='{
+        "title": "",
+        "description": "",
+        "tags": [],
+        "link": "#"
+      }'
+    >
+      <div class="card-media pattern pattern-3"></div>
+      <div class="card-body">
+        <h3></h3>
+        <p></p>
+        <div class="tags"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    
+        
+        
+    </section>
+
+    
+    <section id="about" class="section container">
+      <div class="about wrap reveal">
+        <div class="about-media" aria-hidden="true">
+          <div class="avatar" title="Profile photo">CW</div>
+        </div>
+        <div class="about-body">
+          <h2>About Me</h2>
+          <p>
+            I’m Calvin, a student who........
+          </p>
+          <p>
+            
+          </p>
+          <a class="btn" href="#contact">Let’s collaborate</a>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="skills" class="section container">
+      <div class="section-head reveal">
+        <h2>Skills & Tools</h2>
+      </div>
+      <ul class="skills reveal" role="list">
+      
+
+<div class="skill-bars reveal" aria-label="Skill proficiency">
+  
+  <div class="skill-meter" role="progressbar"
+       aria-label="HTML"
+       aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+       data-skill="HTML" data-percent="70">
+    <div class="skill-head">
+      <span class="skill-name">HTML</span>
+      <span class="skill-value">0%</span>
+    </div>
+    <div class="skill-track">
+      <div class="skill-fill"></div>
+    </div>
+  </div>
+
+  <div class="skill-meter" role="progressbar"
+       aria-label="CSS"
+       aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+       data-skill="CSS" data-percent="60">
+    <div class="skill-head">
+      <span class="skill-name">CSS</span>
+      <span class="skill-value">0%</span>
+    </div>
+    <div class="skill-track">
+      <div class="skill-fill"></div>
+    </div>
+  </div>
+
+  <div class="skill-meter" role="progressbar"
+       aria-label="JavaScript"
+       aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+       data-skill="JavaScript" data-percent="60">
+    <div class="skill-head">
+      <span class="skill-name">JavaScript</span>
+      <span class="skill-value">0%</span>
+    </div>
+    <div class="skill-track">
+      <div class="skill-fill"></div>
+    </div>
+  </div>
+
+  <div class="skill-meter" role="progressbar"
+       aria-label="SQL"
+       aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+       data-skill="SQL" data-percent="40">
+    <div class="skill-head">
+      <span class="skill-name">SQL</span>
+      <span class="skill-value">0%</span>
+    </div>
+    <div class="skill-track">
+      <div class="skill-fill"></div>
+    </div>
+  </div>
+
+  <div class="skill-meter" role="progressbar"
+       aria-label="Git"
+       aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+       data-skill="Git" data-percent="50">
+    <div class="skill-head">
+      <span class="skill-name">Git</span>
+      <span class="skill-value">0%</span>
+    </div>
+    <div class="skill-track">
+      <div class="skill-fill"></div>
+    </div>
+  </div>
+</div> 
+
+
+
+
+
+
+    </section>
+
+</div>
+
+
+
+
+
+
+
+
+
+     
+    
+    
+    <section id="contact" class="section container">
+  <div class="section-head reveal">
+    <h2>Contact</h2>
+    <p>Have a project, collaboration idea, or just want to say hello? I’d love to hear from you.</p>
+  </div>
+  <div class="contact-grid reveal">
+
+    
+    <div class="copy-box" data-copy="Calvinwisener08@outlook.com">
+      <span class="copy-text">Calvinwisener08@outlook.com</span>
+      <button class="copy-btn" type="button" tabindex="-1">Copy</button>
+      <span class="copy-badge">Copied!</span>
+    </div>
+
+    
+
+    <div class="copy-box" data-copy="+44 7464 999801">
+      <span class="copy-text">Phone: +44 7464 999801</span>
+      <button class="copy-btn" type="button" tabindex="-1">Copy</button>
+      <span class="copy-badge">Copied!</span>
+    </div>
+
+  </div>
+
+  <!-- Optional: Social Buttons -->
+  <div class="contact-socials reveal">
+    <a class="contact-btn" href="https://github.com/YOURNAME" target="_blank">GitHub</a>
+    <a class="contact-btn" href="https://linkedin.com/in/YOURNAME" target="_blank">LinkedIn</a>
+    <a class="contact-btn" href="mailto:Calvinwisener08@outlook.com">Email Me</a>
+  </div>
+
+  
+    </div>
+  </form>
+
+</section>
+   
+
+  </div>
+</section>
+
+
+
+
+
+
+      </div>
+      
+        </div>
+      </form>
+    </section>
+  </main>
+
+  
+      
+
+ 
+  <div id="projectModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-dialog" role="document">
+      <button class="modal-close" aria-label="Close">×</button>
+      <div class="modal-content">
+        <h3 id="modalTitle">Project Title</h3>
+        <div class="modal-tags" id="modalTags"></div>
+        <p id="modalDesc">Description</p>
+        <a id="modalLink" class="btn primary" href="#" target="_blank" rel="noreferrer">Open Project</a>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="cmdPalette" class="cmd" role="dialog" aria-modal="true" aria-labelledby="cmdTitle" aria-hidden="true">
+    <div class="cmd-backdrop"></div>
+    <div class="cmd-dialog" role="document">
+      <div class="cmd-head">
+        <h3 id="cmdTitle">Quick Actions</h3>
+        <button class="cmd-close" aria-label="Close">×</button>
+      </div>
+      <input id="cmdInput" type="text" placeholder="Type to search… (e.g., 'projects')" aria-label="Search actions" />
+      <ul id="cmdList" class="cmd-list" role="listbox" aria-label="Command results"></ul>
+    </div>
+  </div>
+ 
+<div id="smartSearchModal" class="smart-modal" aria-hidden="true">
+  <div class="smart-backdrop"></div>
+  <div class="smart-dialog">
+    <button class="smart-close">×</button>
+    <h3>Smart Project Search</h3>
+    <input id="smartQuery" placeholder="Search your projects naturally...">
+    <ul id="smartResults"></ul>
+  </div>
+</div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
