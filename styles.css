@@ -758,3 +758,26 @@ input:focus, textarea:focus { outline: none; box-shadow: 0 0 0 3px color-mix(in 
   transform: translateY(-2px);
 }
 
+
+.project-block {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.project-title {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0;
+  color: var(--text);
+}
+
+.project-desc {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
